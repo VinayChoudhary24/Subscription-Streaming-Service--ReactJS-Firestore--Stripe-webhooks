@@ -5,6 +5,9 @@ function App() {
   return (
     <div className="app">
       <h1>Subs Service</h1>
+
+      {/* Render the Home Component */}
+
     </div>
   );
 }
