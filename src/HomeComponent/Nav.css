@@ -1,0 +1,68 @@
+
+/* #### The Background Color of the body is in INDEX.CSS */
+
+/* This is the Main Container */
+.nav {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    height: 45px;
+    z-index: 1;
+     /* ANIMATIONS */
+     transition-timing-function: ease-in;
+     transition: all 0.5s;
+}
+
+
+/* This is the Container containing all the Images of different Platforms */
+.nav__contents {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+}
+
+/* This is the YELLOW RED Color on the TOP */
+.nav__yellow {
+    background-color: #E7C57A;
+    /* This will only give radius to the RIGHT SIDE WHEN WE Scroll DOWN */
+    /* border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%; */
+}
+
+.nav__amazon {
+    cursor: pointer;
+}
+
+.nav__netflix {
+    cursor: pointer;
+}
+
+.nav__hulu {
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.nav__hbo {
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.nav__disney {
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.nav__apple {
+    cursor: pointer;
+    object-fit: contain;
+}
+
+/* This is the AVATAR/USER/Profile */
+.nav__avatar {
+    cursor: pointer;
+    position: fixed;
+    right: 15px;
+    height: 30px;
+    width: 30px;
+}

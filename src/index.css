@@ -2,8 +2,11 @@
   margin: 0;
 }
 
+
 body {
   margin: 0;
+  /* #### This is the App background color */
+  /* background-color: #E4D6A7; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
