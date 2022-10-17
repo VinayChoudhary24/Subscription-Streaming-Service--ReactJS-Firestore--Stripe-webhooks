@@ -3,15 +3,15 @@ import "./Nav.css";
 
 function Nav() {
     // This Function will SHOW and HIDE the NAV BAR COLOR
-    const [show, handleShow] = useState(false);
+    const [show, handleShow] = useState(true);
 
     // This is the Function
     const transitionNavBar = () => {
-        // This will Make Sure that when the USER SCROLL DOWN-- on the Y-axis by 100 it will Hide the NavBar and COLOR WILL POP-up
+        // This will Make Sure that when the USER SCROLL DOWN-- on the Y-axis by 100 it will Hide the NavBar COLOR
         if(window.scrollY > 100) {
-            handleShow(true);
-        } else {
             handleShow(false);
+        } else {
+            handleShow(true);
         }
     };
     useEffect( () => {
@@ -22,8 +22,8 @@ function Nav() {
 
   return (
     // add a className
-    // Add additional className(nav__yellow) to Get the Black Effect on the Top of the NAV
-    // Use STRING INTERPOLATION to Bind the show Variable to the Yellow Color i.e Only show the Yellow class when the show variable is true
+    // Add additional className(nav__color) to Get the color Effect on the Top of the NAV
+    // Use STRING INTERPOLATION to Bind the show Variable to the  Color i.e Only show the Yellow class when the show variable is true
     <div className={`nav ${show && "nav__yellow"}`}>
       {/* Add the Image Tag and Create a div that contains All the Platform Images */}
       <div className="nav__contents">

@@ -10,6 +10,35 @@ function HomeScreen() {
         <Nav />
 
         {/* Banner in the Middle */}
+        <h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1>
+        <h1>TEST</h1>
+        <h1>TEST</h1>
+        <h1>TEST</h1>
+        <h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1><h1>TEST</h1><h1>TEST</h1><h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
+        <h1>TEST</h1><h1>TEST</h1><h1>TEST</h1>
 
         {/* Rows */}
     </div>
